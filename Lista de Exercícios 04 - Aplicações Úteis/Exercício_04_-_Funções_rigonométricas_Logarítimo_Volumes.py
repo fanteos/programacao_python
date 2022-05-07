@@ -85,7 +85,7 @@ while(opcao_usuario != 9):
     lado3 = float(input("Insira o lado 3 do paralelepípedo: "))
     print("%.8f" % volume_paralelepipedo(lado1, lado2, lado3))
   elif(opcao_usuario == 4):
-    raio = float(input("Insira o raio da esféra: "))
+    raio = float(input("Insira o raio da esfera: "))
     print("%.8f" % volume_esfera(raio))
   elif(opcao_usuario == 5):
     a = float(input("Insira o ângulo desejado: "))
